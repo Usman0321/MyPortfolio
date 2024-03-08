@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunder coder</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="image/fav-icon.jpg" type="image/x-icon">
+  
+</head>
+<body>
+    <div id="protfolio">
+        <div class="container">
+          <h1 class="sub-title">Project list</h1>
+          <div class="work-list">
+            <div class="work" data-aos="fade-down" data-aos-duration="1400">
+              <img src="image/work-1.png" />
+              <div class="layer">
+                <h3>Password Generator</h3>
+                <p>I made facebook Password generator as a random number, alphabets as paractice</p>
+                <a href="https://shabanmughal.github.io/demo/">
+                    <i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work" data-aos="fade-down" data-aos-duration="1400">
+              <img src="image/password.jpg" />
+              <div class="layer">
+                <h3>Age Calculator</h3>
+                <p>I made Age calculator to relize our age and this project as paractice</p>
+                <a href="https://shabanmughal.github.io/Age-Calculator/">
+                    <i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work" data-aos="fade-down" data-aos-duration="1400">
+              <img src="image/calculator.jpg" />
+              <div class="layer">
+                <h3>Calculator</h3>
+                <p>
+                  I made calculator with all mathematics and this project as a paractice
+                </p>
+                <a href="https://shabanmughal.github.io/Calculator/">
+                    <i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+            <div class="work" data-aos="fade-down" data-aos-duration="1400">
+                <img src="image/weather.jpg" />
+                <div class="layer">
+                  <h3>Weather Reporter</h3>
+                  <p>
+                    I made weather reporter of any country and any city and this project as paractice
+                  </p>
+                  <a href="https://shabanmughal.github.io/Weather-Reporter/">
+                      <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work" data-aos="fade-down" data-aos-duration="1400">
+                <img src="image/work-2.png" />
+                <div class="layer">
+                  <h3>To Do List</h3>
+                  <p>
+                    I made to do list of your work and mark it and this project as paractice
+                  </p>
+                  <a href="https://shabanmughal.github.io/To-do-list/">
+                      <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work" data-aos="fade-down" data-aos-duration="1400">
+                <img src="image/work-1.png" />
+                <div class="layer">
+                  <h3>QR Code Generator</h3>
+                  <p>
+                    I made Qr code generator to make qr code of any website and this project as paractice
+                  </p>
+                  <a href="https://shabanmughal.github.io/QR-Code/">
+                      <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+      <div class="loader"></div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+      <script>
+        window.addEventListener("load",()=>{
+    const loader = document.querySelector(".loader");
+
+    loader.classList.add("loader-hidden");
+
+    loader.addEventListener("transition", ()=> {
+      document.body.removeChild("loader");
+    })
+  })
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thunder coder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="image/fav-icon.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="logo">Thunder <span>coder.</span></p>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#protfolio">Protfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text" data-aos="slide-right" data-aos-duration="1100">
+          <h1>Hi, I'm <span class="color color2">Shaban</span></h1>
+          <p>And I'm a <span id="element" class="color"></span></p>
+          <p class="p-second">
+            Welcome to my portfolio! I'm Shaban Mughal, a web wizard weaving magic
+            through lines of code. Specializing in creating responsive and
+            dynamic websites, I bring a blend of creativity and technical
+            expertise to every project, ensuring a delightful online presence
+            for your brand or idea.
+          </p>
+          <div class="btns">Scroll down</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------about---------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1" data-aos="fade-up" data-aos-duration="1500">
+            <img src="image/user.jpg" class="user" />
+          </div>
+          <div class="about-col-2" data-aos="fade-right" data-aos-duration="1100">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A web developer plays a crucial role in the creation and
+              maintenance of websites and web applications. This position
+              requires a combination of programming skills, creativity, and an
+              understanding of the latest trends in web development. Web
+              developers collaborate with cross-functional teams, including
+              designers, content creators, and system administrators, to bring a
+              website's vision to life.
+            </p>
+
+            <div class="tab-title">
+              <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skills">
+              <ul>
+                <li><span>UI / UX</span><br />Designing Web interfaces</li>
+                <li><span>Web Development</span><br />Build websites</li>
+                <li>
+                  <span>Video Editor</span><br />Edit videos on different
+                  Software Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experience">
+              <ul>
+                <li><span>2023</span><br />Join intenship in Softicera</li>
+                <li><span>2022</span><br />Start learning online</li>
+                <li><span>2021</span><br />Start learning online</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li>
+                  <span>2023 - 2028</span><br />Bachlor, LLB From University
+                </li>
+
+                <li>
+                  <span>2022 - 2023</span><br />Intermediate, I.com From College
+                </li>
+
+                <li>
+                  <span>2020 - 2021</span><br />Matric, Pre-Medical From School
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------Service----------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list" data-aos="fade-right" data-aos-duration="1500">
+          <div >
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              A web developer is a skilled professional specializing in creating
+              and maintaining websites and web applications.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div >
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Video Editing</h2>
+            <p>
+              A video editor is a skilled professional who manipulates and
+              refines raw video footage to create polished and compelling visual
+              content.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div >
+            <i class="fa-solid fa-crop-alt"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design involves the artful creation of visually appealing and
+              user-friendly interfaces for websites and applications.
+              experiences.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------protfolio-------------- -->
+    <div id="protfolio">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+          <div class="work" data-aos="fade-down" data-aos-duration="1500">
+            <img src="image/work-5.png" />
+            <div class="layer">
+              <h3>Facebook Clone</h3>
+              <p>I made facebook clone name as the Social book as paractice</p>
+              <a href="https://shabanmughal.github.io/socialBook/">
+                <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work" data-aos="fade-down" data-aos-duration="1500">
+            <img src="image/work-4.jpg" />
+            <div class="layer">
+              <h3>Youtube Clone</h3>
+              <p>I made youtube clone name as the Vid tube as paractice</p>
+              <a href="https://shabanmughal.github.io/Vid-tube/" >
+                <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work" data-aos="fade-down" data-aos-duration="1500">
+            <img src="image/work-3.png" />
+            <div class="layer">
+              <h3>images Search Engine</h3>
+              <p>
+                I made image search engine you search anything in input box you
+                get images
+              </p>
+              <a href="https://shabanmughal.github.io/Search_Engine/" >
+                <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="Project.html" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- -------------contact-------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left" data-aos="fade-up" data-aos-duration="1400">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i> thundermughal@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 0317-7793631</p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/shaban.mughal.96995/">
+                <i class="fab fa-facebook"></i></a>
+              <a href="https://twitter.com/ThanderMughalyt">
+                <i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/thunder_senpai_22/">
+                <i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/thander-mughal-27386a2a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="image/My Resume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right" data-aos="fade-in" data-aos-duration="1400">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="Email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea name="Message" rows="6" placeholder="Your Message">
+              </textarea>
+              <button type="submit" class="btn btn2" onclick="toastShow()">
+                Submit
+              </button>
+              <div id="toast-box"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copuright">
+        <p>
+          <i class="fa-regular fa-copyright"></i> Copyright claim made by
+          thunder coder - 2024
+        </p>
+      </div>
+    </div>
+    <div class="loader"></div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <script src="script.js"></script>
+  </body>
+</html>
